@@ -6,7 +6,7 @@
     Duration: 10 hours
     Trainer: sivakumar
   tasks:
-    name: print course information
-    ansible.builtin.debug:
+    - name: print course information
+      ansible.builtin.debug:
     # vars should be surrounded by ""
-      msg: "Hello {{ Course }} course duration {{ Duration }}: , trainer is Trainer"
+       msg: " Hello {{ Course }} course duration {{ Duration }}: , trainer is Trainer "
