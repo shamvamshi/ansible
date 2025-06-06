@@ -5,3 +5,4 @@
   - name: print course info
     ansible.builtin.debug:
      msg: "Hello iam Learning {{ COURSE }} the duration is {{ DURATION }} and Trainer is {{ TRAINER }}"
+     
