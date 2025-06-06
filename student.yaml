@@ -1,0 +1,7 @@
+- name: sham 
+  lastname: vamshi
+  email: sham@gmail.com
+  addresses: # list of addresses
+  - type: permanant 
+    doorno: 6
+    street: janaki nagar colony
