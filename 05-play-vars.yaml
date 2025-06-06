@@ -9,4 +9,4 @@
     - name: print course information
       ansible.builtin.debug:
     # vars should be surrounded by ""
-       msg: " Hello {{ Course }} course duration {{ Duration }}: , trainer is {{ Trainer }} "
+       msg: " Hello {{ Course }} course duration {{ Duration }} , trainer is {{ Trainer }} "
