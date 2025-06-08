@@ -3,7 +3,7 @@
   become: yes # become sudo user
   tasks:
   - name: install packages
-    ansible.builtin.packages:
+    ansible.builtin.package:
       msg: "{{ item }}"
       state: installed
     loop:
