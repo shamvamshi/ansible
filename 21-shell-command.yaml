@@ -4,3 +4,6 @@
    - name: redirect ls output to a file
     # ansible.builtin.command: "ls -ltr > /tmp/output.txt"
      ansible.builtin.shell: "ls -ltr > /tmp/output.txt"
+
+     # commands will not run in command mode; 
+     # it will only work in shell mode.
