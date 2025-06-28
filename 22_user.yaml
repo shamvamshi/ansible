@@ -3,4 +3,4 @@
   connection: local
   tasks:
   - name: check roboshop user exist or not
-    ansible.buiiltin.command: id roboshop
+    ansible.builtin.command: id roboshop
