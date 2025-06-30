@@ -5,7 +5,7 @@
   - name: check roboshop user exist or not
     ansible.builtin.command: id roboshop
     register: output
-    ignore_errors: true
+    ignore_errors: true  #  it only prevents the playbook from stopping. The task will still be marked as FAILED, but the play will continue.
 
   - name: create user
     become: yes
