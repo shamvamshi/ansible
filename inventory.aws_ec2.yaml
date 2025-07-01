@@ -9,8 +9,8 @@ hostnames:
   - private-ip-address
 keyed_groups:
 - key: tags.Name
-  prefix: ""
-  separator: ""
+  prefix: "dynamic"
+  separator: "_"
 compose: 
   # this sets the ansible_host variable to connect with the private ip address without changing the host.
   ansible_host: private_ip_address
